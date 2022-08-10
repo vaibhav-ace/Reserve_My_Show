@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <!--Head-->
+    <head>
+        <title>Reserve My Show - Book Movie</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link id="website" rel="stylesheet" type="text/css" href="/stylesheets/booking.css">
+        <script src="/javascripts/booking.js"></script>
+    </head>
+
+    <!--Body-->
+    <body onload="book_show()">
+
+        <!--Booking Body-->
+        <div id="booking">
+            <div class="page_heading">
+                <p><b>Book Your Movie and Seat</b></p>
+                <hr>
+                <label>Choose a movie:</label>
+                <select name="movie" id="list_movies">
+                  <option value="Avengers">Avengers: Age of Ultron</option>
+                  <option value="Spiderman">Spiderman: Into the Spider-Verse</option>
+                  <option value="Uncharted">Uncharted</option>
+                  <option value="Mulan">Mulan</option>
+                  <option value="Pirates of the Carribean: The Curse of the Black Pearl">Pirates of the Carribean: The Curse of the Black Pearl</option>
+                  <option value="The Karate Kid">The Karate Kid</option>
+                  <option value="Your Name">Your Name</option>
+                  <option value="Dragon Ball Super: Broly">Dragon Ball Super: Broly</option>
+                  <option value="Doctor Strange the Multiverse of Madness">Doctor Strange: The Multiverse of Madness</option>
+                </select>
+                <br><br><br><br><br><br><br>
+                <label>Choose a date:</label>
+                <input type="datetime-local" value="2022-06-17T00:00" min="2018-01-01T00:00" max="2024-12-31T00:00">
+            </div>
+            <br><br><br><br>
+            <br><br><br><br>
+            <div id="movie">
+                <p><b>Movies Showing:</b></p>
+                <br>
+                <img src="/images/movie1.jpg" alt="Movie 1" width="450" height="250">
+                <img src="/images/movie2.jpg" alt="Movie 2" width="450" height="250">
+            </div>
+        </div>
+        <p id="show_movies"></p>
+        <br><br><br>
+        <button id="final" onclick="confirmation()">Submit</button>
+
+    </body>
+
+</html>

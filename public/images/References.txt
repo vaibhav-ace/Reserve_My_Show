@@ -1,0 +1,15 @@
+The images used in the website for the movies are taken from the following sources:
+
+https://wallpaperaccess.com/movie
+https://www.creativebloq.com/graphic-design/movie-wallpapers-designers-12121425
+https://www.disneyplus.com/movies/pirates-of-the-caribbean-the-curse-of-the-black-pearl/2XuO7Cc1YEau
+https://www.amazon.com/Mulan-4K-UHD-Yifei-Liu/dp/B08K85T4BY
+https://stevivor.com/reviews/stevivor-uncharted-movie-review/
+https://www.nme.com/news/film/the-karate-kid-star-ralph-macchio-says-will-smith-reboot-should-have-been-called-the-kung-fu-kid-2740301
+https://wall.alphacoders.com/by_sub_category.php?id=239404&name=Your+Name.+Wallpapers
+https://www.polygon.com/22427705/new-dragon-ball-super-movie-release-2022
+https://collider.com/doctor-strange-2-multiverse-of-madness-release-date-cast-trailer-filming-details/
+
+
+
+No other code has been copied from the internet, it is a project build by me from scratch.

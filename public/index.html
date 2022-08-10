@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <!--Head-->
+    <head>
+        <title>Reserve My Show - Seat Booking</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link id="website" rel="stylesheet" type="text/css" href="/stylesheets/index.css">
+        <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+        <script src="/javascripts/index.js"></script>
+        <script src="home_vue.js" defer></script>
+    </head>
+
+    <!--Body-->
+    <body onload="change_var()">
+
+        <!--Header/Navigation Bar-->
+        <div class="nav">
+            <div class="nav_left">
+                <img src="/images/logo.png" alt="Reserve My Show!" width="250" height="50">
+            </div>
+            <div class="nav_right">
+                <button onclick="window.location.href='/booking.html';">Book a show</button>
+                <button onclick="change_content()">Change Content</button>
+                <button onclick="change_background()">Dark/Light</button>
+            </div>
+        </div>
+        <hr>
+
+        <!--Movies body-->
+        <div id="movies">
+            <div class="page_heading">
+                <span>Let's Party... Let's watch a movie!</span>
+            </div>
+            <div id="app">
+                <button onclick="vueinst.name=NAME[1];">{{ name.name }}</button>
+            <br/>
+
+            <div id="event_content">
+                <img src="/images/movie1.jpg" alt="Movie 1" width="450" height="250" onclick="window.location.href='/booking.html';">
+                <img src="/images/movie2.jpg" alt="Movie 2" width="450" height="250" onclick="window.location.href='/booking.html';">
+                <img src="/images/movie3.jpg" alt="Movie 3" width="450" height="250" onclick="window.location.href='/booking.html';">
+                <img src="/images/movie4.jpg" alt="Movie 4" width="450" height="250" onclick="window.location.href='/booking.html';">
+                <img src="/images/movie5.jpg" alt="Movie 5" width="450" height="250" onclick="window.location.href='/booking.html';">
+                <img src="/images/movie6.jpg" alt="Movie 6" width="450" height="250" onclick="window.location.href='/booking.html';">
+                <img src="/images/movie7.png" alt="Movie 7" width="450" height="250" onclick="window.location.href='/booking.html';">
+                <img src="/images/movie8.jpg" alt="Movie 8" width="450" height="250" onclick="window.location.href='/booking.html';">
+                <img src="/images/movie9.jpg" alt="Movie 9" width="450" height="250" onclick="window.location.href='/booking.html';">
+            </div>
+            </div>
+            <footer>
+                <hr>
+                <div class="nav_left">
+                    <span>Author and Designer: Vaibhav Aggarwal</span>
+                </div>
+                <div class="nav_right">
+                    <span>Australia</span>
+                </div>
+
+            </footer>
+        </div>
+
+        <!--Information Body-->
+        <div id="information">
+            <div class="page_heading">
+                <p>Information about Reserve My Show</p>
+            </div>
+            <br/>
+            <div id="event_content2">
+                    <b>General Information</b>
+                    <br>
+                    <br>
+                        This web application is for the reservation/booking system for a theatre. The system implements the following functionality:
+                    <br>
+                    <br>
+                        - Users can browse the different seats available
+                    <br>
+                        - Seats can be searched/filtered by:
+                        <ul>
+                            <li>The date/time for the booking</li>
+                            <li>The seating section</li>
+                        </ul>
+                        <br>
+                        <br>
+                        <b>How to use the website?</b>
+                    <br>
+                    <br>
+                        On the top-right, there are three button:
+                        <ul>
+                            <li>Book a Show: Lets the user choose from the movies available and the user can choose a movie to watch from a given date/time</li>
+                            <li>Change Content: Changes the content of the website to display more informaiton about the website or show the movies available</li>
+                            <li>Dark/Light: Lets the user choose the light or dark mode, according to their preference</li>
+                        </ul>
+                    <br>
+                    <br>
+                        <b>How to select a movie?</b>
+                    <br>
+                    <br>
+                        Click on 'Book a Show' on the top right button and choose from the given movies.
+                        <br>
+                        Then, choose from the available dates and times along with the seating section for the movie.
+                        <br>
+                        Finally, click the submit button. A confirmation message should appear as an alert!
+            </div>
+            <footer id="footer2">
+                <hr>
+                <div class="nav_left">
+                    <span>Author and Designer: Vaibhav Aggarwal</span>
+                </div>
+                <div class="nav_right">
+                    <span>Australia</span>
+                </div>
+            </footer>
+        </div>
+
+
+
+    </body>
+
+</html>

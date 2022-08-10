@@ -1,0 +1,56 @@
+html{
+    background-color: black;
+    color: white;
+    height:100vh;
+}
+button{
+    background-color: white;
+    color: black;
+    padding: 0.5em;
+    font-size: 15px;
+    font-weight: bold;
+    width: 10em;
+    font-family: "Times New Roman", times, serif;
+    text-align: center;
+    border-radius: 0.3em;
+}
+.nav{
+    overflow: hidden;
+    color: white;
+    height: 4em;
+}
+.nav_left{
+    float: left;
+    margin-left:2vh;
+    margin-top:2vh;
+}
+.nav_right{
+    float: right;
+    margin-top:2vh;
+    margin-right:2vh;
+}
+.page_heading{
+    text-align: center;
+    font-size: 25px;
+}
+#event_content{
+    text-align: center;
+    width:80%;
+    margin-left: auto;
+    margin-right:auto;
+}
+#event_content2{
+    text-align: left;
+    padding: 20px;
+    margin: 5px;
+}
+footer{
+    clear:both;
+    margin-top:1vh;
+    margin-bottom:2vh;
+}
+#footer2{
+    clear:both;
+    margin-top:18vh;
+    margin-bottom:3vh;
+}

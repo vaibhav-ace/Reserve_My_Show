@@ -1,7 +1,11 @@
 # Reserve_My_Show
 
 A movie reservation booking web application.
-This web application involves the use of technolgoeis ranging from HTML, CSS, JS, SQL and Node.js.
+
+This web application involves the use of technolgoeis ranging from HTML, CSS, JS, SQL, AJAX and Node.js.
+
+The system is designed to be simple and fun. Dark/White backgrounds can be adjusted and it is simple to book a movie based on the existing movies in the SQl database.
+
 All of this project has been independently been developed by me!
 
 

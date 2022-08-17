@@ -11,4 +11,4 @@ It is simple to book a movie based on the existing movies in the SQL database.
 All of this project has been independently been developed by me!
 
 
-![Uploading image.png…]()
+![image](https://user-images.githubusercontent.com/99183587/185076313-93a26b6b-2665-470d-b236-4a82ce45bc6d.png)
